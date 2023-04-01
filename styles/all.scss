@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "abstracts/variables";
+@import "base/global";
+
+/* Landing */
+@import "landing/all.scss";

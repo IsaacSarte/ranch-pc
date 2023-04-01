@@ -1,7 +1,11 @@
-export default function Home() {
+import Navbar from "../components/Landing/Navbar";
+import Home from "../components/Landing/Home";
+
+export default function index() {
   return (
-    <div>
-      <h1>Ranch PC Services</h1>
-    </div>
+    <>
+      <Navbar />
+      <Home />
+    </>
   );
 }

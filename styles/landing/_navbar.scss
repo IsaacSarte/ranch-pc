@@ -1,0 +1,57 @@
+.navbar__container {
+  background-color: $primaryBackground;
+  min-height: 10vh;
+}
+
+.logo-image,
+.logo-overlay {
+  border-radius: 5px;
+}
+
+.quote-btn {
+  cursor: pointer;
+  border: 2px solid #91459e;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+  border-radius: 9999px;
+  gap: 0.5rem;
+  transition: $slow;
+
+  &:hover,
+  &:focus {
+    box-shadow: inset 12em 0 0 0 #91459e;
+
+    &.btn-overlay {
+      box-shadow: inset 30em 0 0 0 #91459e;
+    }
+  }
+}
+
+.hamburger-menu,
+.close-menu {
+  cursor: pointer;
+}
+
+.navbar__container-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 8px;
+  border: 1px solid #91459e;
+  border-radius: 8px;
+  background-color: $primaryBackground;
+  color: $primaryTextColor;
+  z-index: 100;
+  margin-top: 8px;
+  margin-left: 1vw;
+  width: 98vw;
+
+  .list-overlay {
+    margin-left: 4px;
+    
+    .list-item-overlay {
+      gap: 4px;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+  }
+}
