@@ -10,7 +10,7 @@
 
 .quote-btn {
   cursor: pointer;
-  border: 2px solid #91459e;
+  border: 2px solid $secondaryTextColor;
   padding: 0.5rem 1.25rem 0.5rem 1.25rem;
   border-radius: 9999px;
   gap: 0.5rem;
@@ -18,10 +18,10 @@
 
   &:hover,
   &:focus {
-    box-shadow: inset 12em 0 0 0 #91459e;
+    box-shadow: inset 12em 0 0 0 $secondaryTextColor;
 
     &.btn-overlay {
-      box-shadow: inset 30em 0 0 0 #91459e;
+      box-shadow: inset 30em 0 0 0 $secondaryTextColor;
     }
   }
 }
@@ -36,7 +36,7 @@
   top: 0;
   left: 0;
   padding: 8px;
-  border: 1px solid #91459e;
+  border: 1px solid $secondaryTextColor;
   border-radius: 8px;
   background-color: $primaryBackground;
   color: $primaryTextColor;

@@ -1,4 +1,39 @@
 .home__container {
   background-color: $primaryBackground;
   // min-height: 90vh;
+
+  .home-title {
+    font-weight: 700;
+    font-size: 3rem;
+
+    &.title-1 {
+      color: $primaryTextColor;
+    }
+    &.title-2 {
+      color: $secondaryTextColor;
+      margin-top: -2rem;
+    }
+
+    @media screen and (min-width: 426px) {
+      font-size: 5rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 7rem;
+    }
+  }
+
+  .home-details {
+    font-weight: 600;
+    font-size: 0.5rem;
+    color: $primaryTextColor;
+
+    @media screen and (min-width: 426px) {
+      font-size: 0.875rem;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 1.175rem;
+    }
+  }
 }
