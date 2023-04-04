@@ -6,10 +6,12 @@ import {
 
 import { motion } from 'framer-motion'
 
+import List from './Home/List'
+
 const Home = () => {
   return (
     <div className="home__container">
-      <Box>
+      <Box className="home">
         <Flex direction="column" alignItems="center">
           <motion.div
             initial={{ opacity: 0, x: '-10vw' }}
@@ -36,6 +38,10 @@ const Home = () => {
             </Text>
           </motion.div>
         </Flex>
+      </Box>
+
+      <Box className="mt-5">
+        <List />
       </Box>
     </div>
   )
