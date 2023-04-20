@@ -7,6 +7,7 @@ import {
 import { motion } from 'framer-motion'
 
 import List from './Home/List'
+import Footer from './Home/Footer'
 
 const Home = () => {
   return (
@@ -42,6 +43,10 @@ const Home = () => {
 
       <Box className="mt-5">
         <List />
+      </Box>
+
+      <Box className="mt-5">
+        <Footer />
       </Box>
     </div>
   )
