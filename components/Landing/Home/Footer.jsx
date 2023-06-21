@@ -36,7 +36,7 @@ const Footer = () => {
           </List>
         </Flex>
 
-        <Flex alignItems="center" className="gap-1">
+        <Flex alignItems="center" className="gap-4 mt-2 md:mt-0">
           <FaFacebookSquare />
           <SiGmail />
           <BsFillTelephoneFill />
